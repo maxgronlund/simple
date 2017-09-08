@@ -14,7 +14,6 @@ require "capistrano/deploy"
 # or
 require "capistrano/scm/git"
 
-require 'capistrano/unicorn_nginx'
 
 install_plugin Capistrano::SCM::Git
 
