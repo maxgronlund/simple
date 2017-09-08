@@ -84,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: simple_production
-  username: simple
-  password: <%= ENV['SIMPLE_DATABASE_PASSWORD'] %>
+  database: digiramp
+  username: deploy
+  password: "$1$/4ehlPxH$46VjTUhJUdOxSJWiU7oZa0"
