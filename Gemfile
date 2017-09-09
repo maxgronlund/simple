@@ -42,7 +42,8 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'capistrano', '~> 3.6.1'
   gem 'capistrano-unicorn-nginx', '~> 4.1.0'
-  gem 'capistrano-safe-deploy-to', '~> 1.1.1'
+  gem 'capistrano-rbenv', '~> 2.0'
+  gem 'capistrano-rails', '~> 1.3'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
