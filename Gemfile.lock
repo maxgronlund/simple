@@ -49,8 +49,6 @@ GEM
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
     capistrano-harrow (0.5.3)
-    capistrano-safe-deploy-to (1.1.1)
-      capistrano (>= 3.0)
     capistrano-unicorn-nginx (4.1.0)
       capistrano (>= 3.1)
       sshkit (>= 1.2.0)
@@ -173,7 +171,6 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capistrano (~> 3.6.1)
-  capistrano-safe-deploy-to (~> 1.1.1)
   capistrano-unicorn-nginx (~> 4.1.0)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
