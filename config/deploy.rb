@@ -3,6 +3,7 @@ lock '3.6.1'
 
 set :application, 'simple'
 set :repo_url, 'git@github.com:maxgronlund/simple.git'
+set :user, 'deploy'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
