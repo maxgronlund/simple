@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'capistrano-rails', '~> 1.3'
   gem 'capistrano-bundler', '~> 1.2'
 
+  gem 'therubyracer', git: 'https://github.com/cowboyd/therubyracer.git'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
