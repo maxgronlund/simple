@@ -8,6 +8,9 @@
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 server '45.63.62.166', user: 'deploy', roles: %w{app db web}
 
+# config/deploy.rb
+set :rbenv_ruby, '2.3.2'
+
 
 # role-based syntax
 # ==================
